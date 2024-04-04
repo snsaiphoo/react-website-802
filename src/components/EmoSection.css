@@ -1,0 +1,102 @@
+.emo-container {
+    background: url('/public/image/emobackground.jpg') center center/cover no-repeat; 
+    height: 420vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center; 
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+    object-fit: contain; 
+}
+
+.colored-heading {
+    background-color: #084634; /* Choose your desired background color */
+    display: inline-block; /* Ensures the background color expands horizontally with the text */
+    padding: 5px 20px; /* Adjust padding as needed for spacing around the text */
+}
+
+.emo-container > h1 {
+    color: #084634;
+    background-color: rgba(255, 255, 255, 0.945);
+    font-size: 50px;
+    padding: 0px 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.emo-container > h2 {
+    color: #084634;
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 0px 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.emo-container > p {
+    font-family: 'Trebuchet MS', 'Helvetica', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.589); 
+    padding: 10px 20px;
+    color: #084634;
+    font-size: 20px;
+    max-width: 50%; /* Set maximum width to 50% of the parent container */
+}
+
+.emo-container > p1 {
+    font-family: 'Trebuchet MS', 'Helvetica', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.913); 
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    color: #084634;
+    font-size: 20px;
+    max-width: 50%; /* Set maximum width to 50% of the parent container */
+}
+
+.video-grid {
+    display: flex;
+    justify-content: space-between; /* Distribute space between videos */
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust as needed */
+  }
+  
+.video-responsive {
+    width: calc(33.33% - 10px); /* Set width for each video (33.33% of container width) */
+    margin-right: 10px; /* Adjust margin between videos */
+ }
+
+ .phototext {
+    position: absolute;
+    top: 80px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: rgba(52, 44, 44, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
+/* Adjust styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .video-grid {
+      flex-wrap: wrap; /* Wrap videos to the next line on smaller screens */
+    }
+  
+    .video-responsive {
+      width: calc(50% - 10px); /* Set width for each video (50% of container width) on smaller screens */
+      margin-right: 10px; /* Adjust margin between videos */
+    }
+}

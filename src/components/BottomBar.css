@@ -1,0 +1,28 @@
+
+.buttoncontainer {
+    display: inline-block;
+}
+
+.buttoncontainer button {
+    margin: 0; /* Reset margin of the buttons */
+    padding: 10px 20px; /* Add padding to the buttons */
+    background-color: rgb(48, 86, 83);
+    color: rgb(196, 57, 57);
+    border: none;
+    cursor: pointer;
+  }
+
+.link {
+    text-decoration: none;
+}
+
+.home-btns {
+    background-color: rgb(16, 67, 70);
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.home-btns .btn {
+    margin: 20px 10px;
+  }
