@@ -9,7 +9,7 @@ function SusSection() {
         <div className="photo-text">Photo by <a href="https://unsplash.com/@devintavery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Devin Avery</a> on <a href="https://unsplash.com/photos/green-leafed-plant-BRVqq2uak4E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
         <h1>SUPPORTING YOUR HEALTH</h1>
         <p>
-            The foods we consume also has a direct impact on how our body functions including our hormones. Diet has a direct
+            The foods we consume also have a direct impact on how our body functions including our hormones. Diet has a direct
             role in affecting our hormones. Studies have shown that chronic stress can lead to an allostatic load on the body,
             which commonly known as burnout. Prolonged stress not only affects mental well-being but also has physical implications, 
             such as compromising the immune system and causing homeostatic dysregulation. This section offers anti-inflammatory 
