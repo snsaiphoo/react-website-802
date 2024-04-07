@@ -13,7 +13,7 @@ function EmoSection() {
         <h1>SUPPORTING THE MIND</h1>
         <p>
             Mental health constantly gets overlooked in our society. It is only recently that more conversations
-            are taking place. Many of us go through traumas like financial strain, family struggles or even 
+            are taking place. Many of us experience traumas like financial strain, family struggles or even 
             losing a loved one, and never take the time to heal or process the situation. 
         </p>
         <p>
@@ -29,7 +29,7 @@ function EmoSection() {
         <div className='card-container'> 
         <MultiActionAreaCard imageUrl="/react-website-802/image/calm.JPG"
             altText="Calm App"
-            title="Calm App fpr Sleep and Meditation"
+            title="Calm App for Sleep and Meditation"
             description="This subscription brings you a plethora of personalized tools to help manage stress 
             and anxiety. The three main areas of focus are sleep, stress & anxiety, and mindfulness."
             link="https://www.calm.com/" />
