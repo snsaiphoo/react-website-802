@@ -27,7 +27,7 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to='/react-website-802' className='navbar-logo' onClick={closeMobileMenu}>
                     RESOLVE 
                     <i class="fa-solid fa-leaf"></i>
                 </Link>
@@ -36,7 +36,7 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}> 
                      <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/react-website-802' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li> 

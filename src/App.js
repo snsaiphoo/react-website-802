@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-           <Route path="/" element={<Home />} />
+           <Route path="/react-website-802" element={<Home />} />
            <Route path="/emotional" element={<Emotional />} />
            <Route path="/physical" element={<Physical />} />
            <Route path="/sustenance" element={<Sustenance />} />

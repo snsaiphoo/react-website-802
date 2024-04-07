@@ -8,7 +8,7 @@ function HomeSection() {
         <h1 class="center-heading">OUR MISSION</h1>
       <div class="text-container">
         <div className="right-content">
-            <img src='/image/stressfree.jpg' alt="Happy Woman on the beach." className="responsive-img" style={{ maxWidth: '400px'}} />
+            <img src='/react-website-802/image/stressfree.jpg' alt="Happy Woman on the beach." className="responsive-img" style={{ maxWidth: '400px'}} />
             <div className="text-overlay">Photo by <a href="https://unsplash.com/@fuuj?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fuu J</a> on <a href="https://unsplash.com/photos/woman-spreading-her-arms-r2nJPbEYuSQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
         </div>
         <p>

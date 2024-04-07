@@ -20,7 +20,7 @@ export default function RecipeExpand() {
           <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '16px', fontWeight: 'bold' }}>Breakfast - Feta, Egg and Olive Pita</Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <img src="/image/breakfast.JPG" alt="Feta, Egg and Olive Pita"></img>
+            <img src="/react-website-802/image/breakfast.JPG" alt="Feta, Egg and Olive Pita"></img>
            <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '10px'}}>PHOTO: TED AND CHELSEA CAVANAUGH</Typography>
            <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '14px', margin: 10}}>
             Here is a simple breakfast recipe that contains anti-inflammatory ingredients. </Typography>
@@ -52,7 +52,7 @@ export default function RecipeExpand() {
           <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '16px', fontWeight: 'bold' }}>Lunch - Cucumber Chicken Greed Godess Wrap</Typography>
         </AccordionSummary>
         <AccordionDetails>
-        <img src="/image/lunch.JPG" alt="Cucumber Chicken Wrap"></img>
+        <img src="/react-website-802/image/lunch.JPG" alt="Cucumber Chicken Wrap"></img>
            <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '10px'}}>PHOTO: BRIE PASSANO</Typography>
            <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '14px', margin: 10}}>
             This is a quick wrap that keeps well when traveling to work or school. It has a good amount of protein and veggies for fiber. </Typography>
@@ -87,7 +87,7 @@ export default function RecipeExpand() {
           <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '16px', fontWeight: 'bold' }}>Dinner - Salmon with Lemon-Herb Orzo & Broccoli</Typography>
         </AccordionSummary>
         <AccordionDetails>
-        <img src="/image/dinner.JPG" alt="Salmon with Orzo"></img>
+        <img src="/react-website-802/image/dinner.JPG" alt="Salmon with Orzo"></img>
            <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '10px'}}>PHOTO: JACOB FOX</Typography>
            <Typography style={{ fontFamily: 'Trebuchet MS', fontSize: '14px', margin: 10}}>
             Salmon is a very anti-inflammatory food; it is very easy to digest. Here it is paired with some Lemon Orzo, 
